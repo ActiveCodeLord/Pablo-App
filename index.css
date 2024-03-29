@@ -25,4 +25,25 @@ text-align: left;
             cursor: pointer;
             margin: 0px 10px;
         }
-    
+            #introduction{
+                display: block;
+                text-align: center;
+            }
+            .p1{
+                line-height: 20px;
+                font-family: syne;
+                font-weight: 400;
+                font-size:20px;
+                background-color: white;
+                display: block;
+                /* margin-bottom: 0px; */
+            }
+            .p2{font-size: 20px;
+                font-family: syne;
+                font-weight: bolder;
+                display: inline-block;
+                width:420px;
+                height: 100px;
+                margin-top:0px;
+                line-height: 1.5;
+            }
