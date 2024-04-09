@@ -28,7 +28,9 @@ text-align: left;
             #introduction{
                 display: block;
                 text-align: center;
-                margin:20px
+                margin-top:30px;
+                margin-bottom:90px;
+                gap:10px
             }
             .p1{
                 line-height: 20px;
@@ -49,32 +51,34 @@ text-align: left;
                 line-height: 1.5;
             }
             #about-container{
-                display: block;
-                text-align: center;
+                display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
             }
-            #about{
-                /* display: inline-flex; */
-                /* align-content: center; */
-                /* width: 100%; */
-                /* background-color: red; */
+            .about-wrapper{
+                display: flex;
+                flex-direction: row;
+            
             }
             .pablo-image{
-                height:120px;
-                width:auto
+                height:170px;
+                width:auto;
+                margin-right:20px
+            
             }
             .about-paragraph{
-                display: inline-block;
-                width: 450px;
+                width: 80%;
+                max-width: 350px;
                 font-family: syne;
                 font-size: 14px;
                 line-height: 1.5;
                 font-weight: bold;
-                margin-left: 10px;
-                padding:0;
-                /* background:blue; */
+                /* margin-top: 10px; */
                 text-align: left;
             }
-            p{
-                padding:0;
-                margin:0
-            }
+        .p3{
+            margin:0px;
+            padding:0px;
+        }
